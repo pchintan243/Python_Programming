@@ -7,4 +7,3 @@ print(dict)
 print(dict.get("Sumit"))
 print(dict.keys())
 print(dict.items())
-
