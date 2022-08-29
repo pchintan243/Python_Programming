@@ -1,7 +1,6 @@
-# Using withblock you don't remember to close the file it is automatically open and close the file
+# Using with syntax you don't remember to close the file it is automatically open and close the file
 
 with open("chintan.txt") as f:
-
     a = f.readlines()
     print(a)
 

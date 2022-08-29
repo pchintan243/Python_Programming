@@ -8,23 +8,23 @@
 "+" - Read and write
 """
 
-f = open("chintan.txt", "rt") #read text mode by default hoy
+f = open("chintan.txt", "rt")  # read text mode by default
 # content = f.read()
 # print(content)
 # f.close()
 
-# content = f.read(4)
+# content = f.read(4)  # It reads first 4 character
 # print(content)
 # f.close()
 
-# 1 line print karava mate
+# Print one line using readline function
 # print(f.readline())
 # print(f.readline())
 # print(f.readline())
 
-# line by line read karva mate
+# If you want to read line by line
 # for line in f:
 #     print(line, end="")
 
-# file ne list ma print karva mate
+# File print as a list using readlines function
 # print(f.readlines())

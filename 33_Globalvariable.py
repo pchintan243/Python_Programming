@@ -1,7 +1,9 @@
 # Global variable cannot be modified
-l = 10 #global variable
+l = 10  # Global variable
+
+
 def function1(n):
-    m = 5 #local variable
+    m = 5  # local variable
 
     # for change the global value
     global l
@@ -13,14 +15,18 @@ def function1(n):
 function1("This is me")
 print(l)
 
+
 def func():
     x = 20
+
     def hello():
         global x
         x = 80
+
     print("Before calling hello()", x)
     hello()
     print("After calling hello()", x)
+
 
 func()
 print(x)
